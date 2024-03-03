@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type = 'text/css' href="styles.css">
+	<!--<link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
+	<script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>-->
+	<title>Project 1</title>
+
+	<!--<py-script>
+		try:
+			userIsLogin = open('userIsLogin.txt', 'r')
+			userIsLogin_accept = userIsLogin.read()
+			if len(list(userIsLogin_accept)) == 1:
+				if userIsLogin_accept == "1":
+					return True
+				elif userIsLogin_accept == "0":
+					return False
+				else:
+					return "AcceptError"
+			else:
+				return "ListCountError"
+	</py-script>-->
+</head>
+<body>
+	<div class = 'header-block'>
+		<div class = 'title-text'>
+			<h1>Социальная сеть</h1>
+			<h2>Первая версия</h2>
+		</div>
+	
+		<div class = 'search-block'>
+			<p>Поиск...</p>
+		</div>
+	</div>
+
+	<div class = 'context-menu'>
+		<ul>
+			<li><img class = 'context-menu-images'src="images/icons/my_page.png"><a href = 'my_page.html'>Моя страница</a></li>
+			<li><img class = 'context-menu-images'src="images/icons/messages.png">Сообщения</li>
+            <li><img class = 'context-menu-images'src="images/icons/friends.png">Друзья</li>
+            <li><img class = 'context-menu-images'src="images/icons/groups.png">Сообщества</li>
+            <li><img class = 'context-menu-images'src="images/icons/music.png">Музыка</li>
+            <li><img class = 'context-menu-images'src="images/icons/files.png">Файлы</li>
+            <li><img class = 'context-menu-images'src="images/icons/settings.png">Настройки</li>
+        </ul>
+	</div>
+
+	<div class = 'friends-news-menu'>
+		<h3>Новости ваших друзей</h3>
+		<ul>
+			<li><div class = 'friends-avatar'></div><h4>Друг №1</h4><br><p>Тут будет интересный факт о друге №1</p></li>
+			<li><div class = 'friends-avatar'></div><h4>Друг №2</h4><br><p>Тут будет интересный факт о друге №2</p></li>
+			<li><div class = 'friends-avatar'></div><h4>Друг №3</h4><br><p>Тут будет интересный факт о друге №3</p></li>
+			<li><div class = 'friends-avatar'></div><h4>Друг №4</h4><br><p>Тут будет интересный факт о друге №4</p></li>
+			<li><div class = 'friends-avatar'></div><h4>Друг №5</h4><br><p>Тут будет интересный факт о друге №5</p></li>
+		</ul>
+		<hr width = 200px size = 1px color = #4e5061>
+		<h5>Показать все</h5>
+	</div>
+
+	<div class = 'main-block'>
+		
+	</div>
+</body>
+</html>
